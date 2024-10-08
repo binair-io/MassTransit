@@ -91,7 +91,7 @@ To configure the SQL transport options, the standard .NET options pattern should
 ### Connection String
 
 A standard connection string can be used to configure the SQL transport. In the example below, the configured connection string is retrieved and set
-on the `SqlTrasnportOptions`.
+on the `SqlTransportOptions`.
 
 ```csharp
 var connectionString = builder.Configuration.GetConnectionString("Db");
